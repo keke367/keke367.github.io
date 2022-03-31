@@ -3,12 +3,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2022/03/31/hello-world/</url>
-    <content><![CDATA[<p>欢迎来到一个新人码农的博客，有多新？就像上面这个title一样新。这是一个日常向的博客，我会分享一些文段、代码等，会在这里输出比较混杂的内容。<br>如果你有幸进入这个主页，那我们还算挺有缘分,这是👉<a href="https://www.github.com/keke367">我的github</a>（代码会变多的，，，相信我）</p>
-<h2 id="个人博客配置相关"><a href="#个人博客配置相关" class="headerlink" title="个人博客配置相关"></a>个人博客配置相关</h2><h3 id="框架：hexo"><a href="#框架：hexo" class="headerlink" title="框架：hexo"></a>框架：hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://hexo.io/zh-cn/</span><br></pre></td></tr></table></figure>
-
-<h3 id="主题：next"><a href="#主题：next" class="headerlink" title="主题：next"></a>主题：next</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ http://theme-next.iissnan.com/</span><br></pre></td></tr></table></figure>
-
-]]></content>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>next下新增分类、标签等选项卡</title>
