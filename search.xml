@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/03/31/hello-world/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>next下新增分类、标签等选项卡</title>
     <url>/2022/03/31/hexo%E4%B8%8Enext%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h2 id="1-主题目录下修改-config-yml"><a href="#1-主题目录下修改-config-yml" class="headerlink" title="1.主题目录下修改_config.yml"></a>1.主题目录下修改_config.yml</h2><p>使用notepad++或其它好用的文本编辑器搜索_config文件下menu选项，去除#标签</p>
