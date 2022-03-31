@@ -4,24 +4,28 @@
     <title>Hello World</title>
     <url>/2022/03/31/hello-world/</url>
     <content><![CDATA[<p>欢迎来到一个新人码农的博客，有多新？就像上面这个title一样新。这是一个日常向的博客，我会分享一些文段、代码等，会在这里输出比较混杂的内容。<br>如果你有幸进入这个主页，那我们还算挺有缘分,这是👉<a href="https://www.github.com/keke367">我的github</a>（代码会变多的，，，相信我）</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="个人博客配置相关"><a href="#个人博客配置相关" class="headerlink" title="个人博客配置相关"></a>个人博客配置相关</h2><h3 id="框架：hexo"><a href="#框架：hexo" class="headerlink" title="框架：hexo"></a>框架：hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://hexo.io/zh-cn/</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="主题：next"><a href="#主题：next" class="headerlink" title="主题：next"></a>主题：next</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ http://theme-next.iissnan.com/</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
-    <title>hexo与next的使用</title>
+    <title>next下新增分类、标签等选项卡</title>
     <url>/2022/03/31/hexo%E4%B8%8Enext%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="1-主题目录下修改-config-yml"><a href="#1-主题目录下修改-config-yml" class="headerlink" title="1.主题目录下修改_config.yml"></a>1.主题目录下修改_config.yml</h2><p>使用notepad++或其它好用的文本编辑器搜索_config文件下menu选项，去除#标签</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home</span><br><span class="line">  <span class="comment">#about: /about/ || fa fa-user</span></span><br><span class="line">  <span class="comment">#tags: /tags/ || fa fa-tags</span></span><br><span class="line">  <span class="comment">#categories: /categories/ || fa fa-th</span></span><br><span class="line">  <span class="comment">#archives: /archives/ || fa fa-archive</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || fa fa-calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || fa fa-sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || fa fa-heartbeat</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-在博客根目录下打开git-bash"><a href="#2-在博客根目录下打开git-bash" class="headerlink" title="2.在博客根目录下打开git bash"></a>2.在博客根目录下打开git bash</h2><p>使用命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page ******* //*号为你需要添加的选项卡</span><br></pre></td></tr></table></figure>
+<p>例：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+<h2 id="3-md文件新增type类型"><a href="#3-md文件新增type类型" class="headerlink" title="3.md文件新增type类型"></a>3.md文件新增type类型</h2><p>在根目录source文件夹下找到对应选项卡文件夹，打开里面的index文件<br>在开头可看见类似以下格式声明</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Categories</span><br><span class="line"><span class="built_in">date</span>: 2022-03-31 18:45:34</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>在三横线包裹中新增type类型,type类型与menu下类型名称一样</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Categories</span><br><span class="line"><span class="built_in">date</span>: 2022-03-31 18:45:34</span><br><span class="line"><span class="built_in">type</span>: <span class="string">&quot;categories&quot;</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>更多next的配置可参考👉<a href="http://theme-next.iissnan.com/">next官网</a></p>
+]]></content>
       <categories>
         <category>前端</category>
       </categories>
