@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C++ Primer Plus</title>
+    <url>/2022/04/05/C++/</url>
+    <content><![CDATA[<h2 id="3-1-6"><a href="#3-1-6" class="headerlink" title="3.1.6"></a>3.1.6</h2><p>iostream提供控制符endl的同时还提供dec、hex和oct,分别用于指示cout以十进制、十六进制和八进制格式显示整数。</p>
+<p>例：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#include &lt;iostream&gt;</span></span><br><span class="line">using namespace std;</span><br><span class="line">int <span class="function"><span class="title">main</span></span>()</span><br><span class="line">&#123;</span><br><span class="line">	int chest = 42;</span><br><span class="line">	int waist = 42;</span><br><span class="line">	int inseam = 42;</span><br><span class="line">	</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;chest =&quot;</span> &lt;&lt; <span class="string">chest &lt;&lt; endl;</span></span><br><span class="line"><span class="string">	cout &lt;&lt; hex;</span></span><br><span class="line"><span class="string">	cout &lt;&lt; &quot;waist =&quot; &lt;&lt; waist &lt;&lt; endl;</span></span><br><span class="line"><span class="string">	cout &lt;&lt; oct;</span></span><br><span class="line"><span class="string">	cout &lt;&lt; &quot;inseam =&quot; &lt;&lt; inseam &lt;&lt; endl;</span></span><br><span class="line"><span class="string">	return 0;</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="3-1-8"><a href="#3-1-8" class="headerlink" title="3.1.8"></a>3.1.8</h2><p>c++将字符表示为整数提供了方便，使得操纵字符值很容易。不必使用笨重的转换函数在字符和ASCII码之间来回转换。<br>即使通过键盘输入的数字也被视为字符，C++通过值的类型引导cout选择如何显示值以及cin如何转换值</p>
+<table>
+    <tr>
+        <td>表格test</td>
+        <td>表格test</td>
+    </tr>
+    <tr>
+        <td>表格test</td>
+        <td>表格test</td>
+    </tr>
+</table>]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/04/01/hello-world/</url>
+    <content><![CDATA[<p>记录我的第一次Blog</p>
+]]></content>
+  </entry>
+  <entry>
     <title>next下新增分类、标签等选项卡</title>
-    <url>/2022/03/31/hexo%E4%B8%8Enext%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <url>/2022/04/01/hexo%E4%B8%8Enext%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h2 id="1-主题目录下修改-config-yml"><a href="#1-主题目录下修改-config-yml" class="headerlink" title="1.主题目录下修改_config.yml"></a>1.主题目录下修改_config.yml</h2><p>使用notepad++或其它好用的文本编辑器搜索_config文件下menu选项，去除#标签</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home</span><br><span class="line">  <span class="comment">#about: /about/ || fa fa-user</span></span><br><span class="line">  <span class="comment">#tags: /tags/ || fa fa-tags</span></span><br><span class="line">  <span class="comment">#categories: /categories/ || fa fa-th</span></span><br><span class="line">  <span class="comment">#archives: /archives/ || fa fa-archive</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || fa fa-calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || fa fa-sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || fa fa-heartbeat</span></span><br></pre></td></tr></table></figure>
 
@@ -24,11 +54,5 @@
         <tag>Hexo</tag>
         <tag>Next</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/04/01/hello-world/</url>
-    <content><![CDATA[<p>记录我的第一次Blog</p>
-]]></content>
   </entry>
 </search>
