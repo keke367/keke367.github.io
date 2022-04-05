@@ -25,4 +25,10 @@
         <tag>Next</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/04/01/hello-world/</url>
+    <content><![CDATA[<p>记录我的第一次Blog</p>
+]]></content>
+  </entry>
 </search>
