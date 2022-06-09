@@ -55,4 +55,27 @@
         <tag>Next</tag>
       </tags>
   </entry>
+  <entry>
+    <title>C++ Primer Plus</title>
+    <url>/2022/04/14/%E5%85%B3%E4%BA%8EC++%E5%A0%86%E6%A0%88%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F/</url>
+    <content><![CDATA[<img src="../img/abc.png">]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++ Primer Plus</title>
+    <url>/2022/04/13/%E5%85%B3%E4%BA%8EC++%E6%95%B0%E7%BB%84%E4%B8%8E%E6%8C%87%E9%92%88%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>指针和数组基本等价，个人认为只是数组类型的创建多了一些规则，例如sizeof(数组名称)的值等于整个数组的字节，但其名称指的依然是第一个元素的地址类型，通过*取得数据值再利用指针算术得到不同元素的值<br>对于数组中的字符串，用引号括起的字符串常量以及指针所描述的字符串，处理的的方式是一样的，都将传递他们的地址。与逐个传递字符串中的所有字符相比，这样做的工作量雀食要少<br><img src=""></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
 </search>
